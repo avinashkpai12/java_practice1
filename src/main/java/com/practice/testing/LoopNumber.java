@@ -2,7 +2,7 @@ package com.practice.testing;
 
 import java.util.Scanner;
 
-public class loopnumber {
+public class LoopNumber {
 
     public static String loop(int n){
         String s = "";

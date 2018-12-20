@@ -2,7 +2,7 @@ package com.practice.testing;
 
 import java.util.Scanner;
 
-public class integer {
+public class IntegerCheckRange {
 
     public static String check(int n){
         String str = "";

@@ -2,7 +2,7 @@ package com.practice.testing;
 
 import java.util.Scanner;
 
-public class examine {
+public class ExamineChar {
     public static String examinestr(String s){
 
         String str = "";

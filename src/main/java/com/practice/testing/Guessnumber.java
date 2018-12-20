@@ -2,7 +2,7 @@ package com.practice.testing;
 
 import java.util.Scanner;
 
-public class guessnumber {
+public class Guessnumber {
 
     public static String guess(int num){
         int n = 76;

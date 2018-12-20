@@ -2,7 +2,7 @@ package com.practice.testing;
 
 import java.util.Scanner;
 
-public class letter {
+public class LetterCheck {
 
     public static String lettercheck(String s){
 
@@ -10,12 +10,12 @@ public class letter {
         for (int i = 0; i < s.length(); i++) {
             if (Character.isLetter(s.charAt(i))) {
                 if (s.charAt(i) == 'a' | s.charAt(i) == 'e' | s.charAt(i) == 'i' | s.charAt(i) == 'o' | s.charAt(i) == 'u') {
-                    st = "Vowel";
+                    st = st +  "Vowel ";
                 } else {
-                    st = "Consonant ";
+                    st += "Consonant ";
                 }
             } else {
-                st = "Input not a letter";
+                st = st + "Input not a letter";
                 break;
             }
         }
@@ -29,6 +29,7 @@ public class letter {
         System.out.println("Enter the String :");
         String s = scan.next();
         String str = lettercheck(s);
+        System.out.println(str);
 
     }
 }

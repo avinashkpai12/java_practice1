@@ -2,7 +2,7 @@ package com.practice.testing;
 
 import java.util.Scanner;
 
-public class palindrome {
+public class Palindrome {
 
     public static String palindromeCheck(int num){
 
